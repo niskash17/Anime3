@@ -1,0 +1,205 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: px;
+  background-image: url(images/b4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flow-root;
+}
+
+header {
+  background-color: #007bff;
+  color: hwb(298 1% 1%);
+  text-align: center;
+  padding: 10px 0;
+  background-image: url(images/header.jpg);
+  background-position: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: underline;
+  text-decoration-color: rgb(38, 214, 14);
+}
+
+.main-container {
+  display: flex;
+  margin: 20px;
+}
+.additional-content {
+    /* Your styling rules for the additional content go here */
+    padding: 20px;
+    background-color: #edcb0a;
+   margin-top: 80px;
+   padding-bottom: 50px;
+   color: chocolate;
+   
+}
+aside {
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  padding: 23px;
+  width: 200px;
+  padding-block: 150px;
+  height: 100px;
+  min-height: 200px;
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 10px;
+  background-image: url(images/b4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+aside,
+ol {
+  color: rgb(5, 247, 78);
+}
+aside a {
+  color: rgb(6, 248, 212);
+}
+
+aside a:hover {
+  color: red;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  background-color: black;
+}
+section{
+    overflow: hidden;
+    
+}
+
+.footer {
+  background-color: #04366b;
+  color: #ddd;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #0fe633ce;
+  height: 150px;
+  display: flex;
+  
+}
+
+nav,
+ul {
+  padding: 8px;
+  
+}
+
+#dragonballz {
+  background: linear-gradient(to right, hsla(73, 98%, 48%, 0.819), rgba(247, 5, 5, 0.911));;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgba(55, 0, 255, 0.912);
+  padding-bottom: 35px;
+}
+
+ #img1{
+    width: 150px;
+    float: left;
+    margin: 20px;
+    margin-top: -35px;
+ }
+
+
+#naruto {
+  background: linear-gradient(to right, rgb(14, 214, 187), rgba(189, 6, 249, 0.789));;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgb(93, 6, 136);
+  padding-bottom: 35px;
+}
+
+#img2{
+    float: left;
+  margin-left: 20px;
+margin-bottom: 20px;
+margin-top: -35px;
+width: 150px;
+}
+
+#bleach {
+  background-color: rgba(222, 184, 135, 0.866);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgb(164, 7, 248);
+}
+
+#img3{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+#onepiece {
+  background-color: rgba(16, 238, 23, 0.5);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgba(108, 2, 60, 0.895);
+}
+
+#img4{
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.one{
+    color: #007bff;
+    text-decoration: underline;
+     text-transform: uppercase;
+    
+}
+
+.two{
+    color: chartreuse;
+    text-decoration: underline;
+     text-transform: uppercase;
+}
+
+.third{
+    color: orangered;
+    text-decoration: underline;
+     text-transform: uppercase;
+
+}
+
+
+.fourth{
+    color:rgba(211, 233, 13, 0.929);
+    text-decoration: underline;
+     text-transform: uppercase;
+
+}
